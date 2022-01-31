@@ -7,8 +7,8 @@ import Accordion from '../Accordion/Accordion.js'
 import ChapterEditor from '../ChapterEditor/ChapterEditor.js'
 import AddFileButton from '../AddFileButton/AddFileButton.js'
 import FileForm from '../FileForm/FileForm.js'
-// import PopupContainer from '../PopupContainer'
-// import FileMove from '../FileMove'
+import PopupContainer from '../PopupContainer/PopupContainer'
+import FileMove from '../FileMove/FileMove'
 
 const chaptersVar = ['Информация о компании', 'Расчёт собственных средств', 'Финансовая отчётность']
 const subChaptersVar = [
@@ -143,6 +143,7 @@ const InformationDisclosureTab = () => {
     setSelectedItemTitleValue('')
     setSelectedItemDescriptionValue('')
     setIsNewChapterGenReq(false)
+    setIsChapterSelected(false)
   }
 
   const handleNewSubchapterSaveButtonClick = () => {
@@ -168,6 +169,7 @@ const InformationDisclosureTab = () => {
     // console.log(arr)
     setSelectedItemTitleValue('')
     setSelectedItemDescriptionValue('')
+    setIsChapterSelected(false)
     // setIsNewChapterGenReq(false)
   }
 
@@ -264,7 +266,7 @@ const InformationDisclosureTab = () => {
             </div>
           )}
         </div>
-        {/* {isFileMovePopupOpen && (
+        {isFileMovePopupOpen && (
           <PopupContainer>
             <FileMove
               setIsFileMovePopupOpen={setIsFileMovePopupOpen}
@@ -272,7 +274,7 @@ const InformationDisclosureTab = () => {
               subChaptersArray={subChapters}
             />
           </PopupContainer>
-        )} */}
+        )}
       </div>
     </TabPanel>
   )
