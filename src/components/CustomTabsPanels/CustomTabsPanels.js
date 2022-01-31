@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import InformationDisclosureTab from '../InformationDisclosureTab'
+import InformationDisclosureTab from '../InformationDisclosureTab/InformationDisclosureTab.js'
 // import DocumentsTab from '../DocumentsTab'
 // import DistributionKitTab from '../DistributionKitTab'
 // import FAQTab from '../FAQTab'
@@ -12,8 +12,7 @@ import React from 'react'
 const CustomTabsPanels = ({ selectedTabNumber }) => {
   switch (selectedTabNumber) {
     case 0:
-      return <div>1</div>
-      // <InformationDisclosureTab />
+      return <InformationDisclosureTab />
     case 1:
       return <div>2</div>
       // <DocumentsTab />

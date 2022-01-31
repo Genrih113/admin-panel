@@ -1,0 +1,10 @@
+.tabPanel {
+  min-height: 200px;
+  background-color: #FFFFFF;
+  padding: 24px;
+  border-radius: 8px;
+}
+  
+.tabPanel_unvisible {
+  display: none;
+}

@@ -1,0 +1,21 @@
+.resizeableTextArea {
+  resize: vertical;
+  overflow: hidden;
+  outline:  none;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  padding: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #17324d;
+  transition: border 0.3s linear 0s;
+}
+
+.resizeableTextArea:hover {
+  border: 1px solid #0841b4;
+}
+
+.resizeableTextArea:focus {
+  border: 1px solid #0841b4;
+}

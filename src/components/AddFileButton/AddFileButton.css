@@ -1,0 +1,41 @@
+.addFile {
+  position: relative;
+}
+
+.addFile__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.addFile__label {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  padding: 16px;
+  background-color: inherit;
+  transition: border 0.3s linear 0s;
+  border: 1px solid #D9E1E8;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #17324d;
+}
+
+.addFile__input:hover ~ label {
+  border: 1px solid #0841b4;
+}
+
+.addFile__input:focus ~ .addFile__label {
+  border: 1px solid #0841b4;
+}
+
+.addFile__icon {
+  margin-right: 8px;
+}

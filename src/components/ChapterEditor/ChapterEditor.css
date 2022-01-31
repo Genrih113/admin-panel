@@ -1,0 +1,47 @@
+.chapterEditor {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #17324d;
+}
+
+.chapterEditor > * {
+  margin-bottom: 8px;
+}
+
+.chapterEditor > *:last-child {
+  margin-bottom: 0;
+}
+
+.chapterEditor__button {
+  max-width: 175px;
+  height: 44px;
+  background-color: #ffffff;
+  border: 1px solid #D9E1E8;;
+  border-radius: 8px;
+  color: #17324D;
+  outline: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #17324d;
+}
+
+.chapterEditor__button:hover {
+  border: 1px solid #0841b4;
+}
+
+.chapterEditor__button:focus {
+  border: 1px solid #0841b4;
+}
+
+.chapterEditor__button:enabled {
+  background-color: #0841b4;
+  border: none;
+  color: #ffffff;
+}
