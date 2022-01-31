@@ -1,0 +1,32 @@
+.tabLabel {
+  padding: 16px;
+  border: none;
+  background-color: inherit;
+  border-radius: 8px 24px 0px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #74808a;
+  outline: none;
+}
+
+.tabLabel:hover {
+  background: linear-gradient(#ffffff, #f8fafc);
+}
+
+.tabLabel:focus {
+  background: linear-gradient(#ffffff, #f8fafc);
+}
+
+
+.tabLabel_selected {
+  padding: 16px;
+  border-width: 0;
+  background-color: #FFFFFF;
+  border-radius: 8px 24px 0px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #17324d;
+  outline: none;
+}
